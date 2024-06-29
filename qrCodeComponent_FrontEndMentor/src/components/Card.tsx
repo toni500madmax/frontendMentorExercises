@@ -5,7 +5,7 @@ const Card = () => {
     <BackgroundCard>
       <Div>
         <Img
-          src="../../public/images/image-qr-code.png"
+          src="/images/image-qr-code.png"
           alt="The Front-End Mentor QRCode Component"
         />
         <TextBlock>
