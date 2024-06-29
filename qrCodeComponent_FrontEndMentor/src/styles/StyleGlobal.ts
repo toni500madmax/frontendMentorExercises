@@ -11,19 +11,17 @@ export const StyleGlobal = createGlobalStyle`
 
     body {
         background-color: ${variaveis.lightGrey};
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
-
 `;
 
 export const Container = styled.div`
-  display: flex;
-  flex-direction: column;
   margin: 0 auto;
-  align-items: center;
-  justify-content: center;
   max-width: 1440px;
   width: 100%;
-  padding: 51.5px;
 
   @media screen and (max-width: 375px) {
     max-width: 375px;
